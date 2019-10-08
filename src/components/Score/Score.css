@@ -1,0 +1,19 @@
+.score {
+  padding: 20px;
+  font-family: "Comfortaa", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .score {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .score {
+    font-size: 1.2rem;
+  }
+}
