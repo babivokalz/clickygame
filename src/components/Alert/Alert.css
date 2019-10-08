@@ -1,0 +1,24 @@
+.default {
+  font-family: "Comfortaa", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.black {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .default {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .default {
+    font-size: 1.2rem;
+  }
+}
