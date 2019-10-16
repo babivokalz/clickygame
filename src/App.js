@@ -4,7 +4,7 @@ import PaperMDC from "./components/PaperMDC";
 import CharacterCard from "./components/CharacterCard";
 import Score from "./components/Score";
 import Alert from "./components/Alert";
-// import characters from "./characters.json";
+import characters from "./characters.json";
 
 class App extends Component {
   state = {
