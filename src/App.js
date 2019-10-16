@@ -17,7 +17,7 @@ class App extends Component {
   handlePicked = event => {
     const name = event.target.attributes.getNamedItem("name").value;
     this.shuffleCharacters();
-    this.checkedGuess(name, this.updateTopScore);
+    this.checkGuess(name, this.updateTopScore);
   };
 
   shuffleCharacters = () => {
@@ -85,7 +85,7 @@ class App extends Component {
               ) : (
                 <Alert
                   message={this.state.alertMessage}
-                  style={{ color: black }}
+                  style={{ color: "black" }}
                 />
               )}
             </PaperMDC>
