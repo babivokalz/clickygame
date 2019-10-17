@@ -60,7 +60,7 @@ class App extends Component {
   };
 
   alertWinner = newState => {
-    if (newState.pickedCharacters.length === 9) {
+    if (newState.pickedCharacters.length === 8) {
       newState.alertMessage = "We have a Winner!";
       newState.pickedCharacters = [];
       this.setState((this.state = newState));
